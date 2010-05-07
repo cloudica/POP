@@ -4,7 +4,7 @@ $(document).ready(function() {
 		
 		var screenHeight = parseInt(screen.height),
 			screenWidth = parseInt(screen.width),
-			sidePadding = (screenWidth - 600) / 2;
+			sidePadding = (screenWidth - 600) / 2,
 			topPadding = (screenHeight - 350) / 4;
 			
 		if(!$("#cloudica_pop").is(":visible"))

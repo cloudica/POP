@@ -16,6 +16,7 @@
 }
 #cloudica_pop .close {
 	margin: -52px 0 0 -10px;
+	opacity: 0.5;
 	text-indent: 35px;
 	padding: 10px 0 0 0;
 	font-weight: bold;
@@ -29,4 +30,7 @@
 	height: 32px;
 	position: absolute;
 	outline: 0;
+}
+#cloudica_pop .close:hover {
+	opacity: 1;
 }

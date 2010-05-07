@@ -1,0 +1,32 @@
+#cloudica_pop {
+	display: none;
+	width: 580px;
+	max-height: 330px;
+	_height: 330px;
+	padding: 10px;
+	z-index: 99999;
+	position: fixed;
+	border: 2px solid #666666;
+	box-shadow: 0 0 10px #000000;
+	border-radius: 8px;
+	-moz-box-shadow: 0 0 10px #000000;
+	-moz-border-radius: 8px;
+	-webkit-box-shadow: 0 0 10px #000000;
+	-webkit-border-radius: 8px;
+}
+#cloudica_pop .close {
+	margin: -52px 0 0 -10px;
+	text-indent: 35px;
+	padding: 10px 0 0 0;
+	font-weight: bold;
+	font-size: 18px;
+	text-decoration: none;
+	font-family: Arial, Sans-serif;
+	text-transform: uppercase;
+	color: #333333;
+	background: transparent url('../img/close.png') no-repeat center center;
+	width: 32px;
+	height: 32px;
+	position: absolute;
+	outline: 0;
+}

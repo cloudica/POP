@@ -5,6 +5,7 @@
 	_height: 330px;
 	padding: 10px;
 	z-index: 99999;
+	background: #FFFFFF;
 	position: fixed;
 	border: 2px solid #666666;
 	box-shadow: 0 0 10px #000000;
